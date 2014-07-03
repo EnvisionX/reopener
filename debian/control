@@ -1,0 +1,16 @@
+Source: reopener
+Section: utils
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@proffero.com>
+Build-Depends: debhelper (>= 8.0.0), python
+Standards-Version: 3.9.3
+Homepage: https://github.com/Proffero/reopener
+Vcs-Browser: https://github.com/Proffero/reopener
+Vcs-Git: https://github.com/Proffero/reopener.git
+
+Package: reopener
+Architecture: all
+Depends: python
+Description: Pass all stdout line by line to an file, reopening it periodically
+ Provides an easy way to rotate log files for applications
+ which are not clever enough to reopen logfiles for themselves.
