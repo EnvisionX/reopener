@@ -38,7 +38,7 @@ def loop(filename):
     """
     while True:
         open_time = time.time()
-        with open(filename, 'a') as fdescr:
+        with open(filename, 'a', 0) as fdescr:
             line = sys.stdin.readline()
             while line:
                 fdescr.write(line)
