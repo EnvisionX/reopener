@@ -1,3 +1,9 @@
+reopener (0.1.1) unstable; urgency=low
+
+  * Copyright fixes.
+
+ -- Aleksey Morarash <aleksey.morarash@proffero.com>  Mon, 18 Aug 2014 16:23:00 +0300
+
 reopener (0.1.0-2) unstable; urgency=low
 
   * Initial release.
