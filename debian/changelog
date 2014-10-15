@@ -1,3 +1,9 @@
+reopener (1.0.0) unstable; urgency=low
+
+  * Rebrend.
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Wed, 15 Oct 2014 09:28:00 +0300
+
 reopener (0.1.1) unstable; urgency=low
 
   * Copyright fixes.
