@@ -1,3 +1,10 @@
+reopener (1.0.1) unstable; urgency=low
+
+  * simplify deb specs
+  * add Makefile (for automatic unit testing purposes)
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Tue, 19 Jan 2016 12:38:45 +0200
+
 reopener (1.0.0) unstable; urgency=low
 
   * Rebrend.
