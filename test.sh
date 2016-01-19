@@ -16,7 +16,7 @@ mkdir "$TMP"
 
 # spawn a "logger" process
 export REOPENER_PERIOD=1
-spam 0.1 | ./reopener.py "$TMP"/log &
+spam 0.1 | ./reopener "$TMP"/log &
 
 # rotate the log periodically
 for i in 1 2 3; do
