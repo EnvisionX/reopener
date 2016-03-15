@@ -1,3 +1,10 @@
+reopener (1.0.2) unstable; urgency=low
+
+  * update readme
+  * add unit test deps for Jenkins automation
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Tue, 15 Mar 2016 10:52:59 +0200
+
 reopener (1.0.1) unstable; urgency=low
 
   * simplify deb specs
