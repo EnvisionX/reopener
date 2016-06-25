@@ -4,9 +4,9 @@ Priority: extra
 Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
 Build-Depends: debhelper (>= 8.0.0), python
 Standards-Version: 3.9.3
-Homepage: https://github.com/EnvisionX/reopener
-Vcs-Browser: https://github.com/EnvisionX/reopener
-Vcs-Git: https://github.com/EnvisionX/reopener.git
+Homepage: https://github.com/ENVISIONX/reopener
+Vcs-Browser: https://github.com/ENVISIONX/reopener
+Vcs-Git: https://github.com/ENVISIONX/reopener.git
 
 Package: reopener
 Architecture: all
