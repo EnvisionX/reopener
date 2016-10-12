@@ -1,3 +1,10 @@
+reopener (2.0.0) unstable; urgency=low
+
+  * reimplement: make it more efficient by cpu and io
+  * fix company name
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Wed, 12 Oct 2016 08:28:12 +0300
+
 reopener (1.0.2) unstable; urgency=low
 
   * update readme
