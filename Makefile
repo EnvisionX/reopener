@@ -1,10 +1,11 @@
 .PHONY: all test clean
 
 all:
+	go build -o reopener
 
-test: clean
+test:
 	/bin/sh -x ./test.sh
 
 clean:
-	rm -f -- *~ *.pyc *.pyo
+	rm -f reopener *~ *_flymake
 	rm -rf test_tmp

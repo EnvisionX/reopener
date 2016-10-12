@@ -2,3 +2,5 @@
 *.pyc
 *.pyo
 test_tmp
+reopener
+*_flymake
