@@ -1,3 +1,9 @@
+reopener (2.0.1) unstable; urgency=low
+
+  * rebuild with Golang 1.7.4.
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Tue, 21 Feb 2017 16:06:00 +0200
+
 reopener (2.0.0) unstable; urgency=low
 
   * reimplement: make it more efficient by cpu and io
