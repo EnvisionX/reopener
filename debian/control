@@ -3,7 +3,7 @@ Section: utils
 Priority: extra
 Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
 Build-Depends: debhelper (>= 8.0.0), golang
-Standards-Version: 3.9.3
+Standards-Version: 4.1.4
 Homepage: https://github.com/ENVISIONX/reopener
 Vcs-Browser: https://github.com/ENVISIONX/reopener
 Vcs-Git: https://github.com/ENVISIONX/reopener.git
