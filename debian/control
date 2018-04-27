@@ -5,8 +5,6 @@ Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
 Build-Depends: debhelper (>= 8.0.0), golang
 Standards-Version: 4.1.4
 Homepage: https://github.com/EnvisionX/reopener
-Vcs-Browser: https://github.com/EnvisionX/reopener
-Vcs-Git: https://github.com/EnvisionX/reopener.git
 
 Package: reopener
 Architecture: all
