@@ -1,3 +1,13 @@
+reopener (2.0.2) unstable; urgency=low
+
+  * Do not use strict package dependencies
+  * Fix copyright year
+  * Specs: remove Vcs-Browser and Vcs-Git links
+  * Fix company name
+  * Upgrade Debian Policy version references
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Sat, 28 Apr 2018 14:01:12 +0300
+
 reopener (2.0.1) unstable; urgency=low
 
   * rebuild with Golang 1.7.4.
