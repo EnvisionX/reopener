@@ -1,3 +1,9 @@
+reopener (2.1.0) unstable; urgency=low
+
+  * rebuild with new versions of libs.
+
+ -- Oleksii Klitovchenko <oleksii.klitovchenko@envisionx.co>  Thu, 19 Mar 2020 09:09:32 +0200
+
 reopener (2.0.2) unstable; urgency=low
 
   * Do not use strict package dependencies
