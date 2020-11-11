@@ -1,3 +1,9 @@
+reopener (2.2.0) unstable; urgency=low
+
+  * Fix 'failed to initialize build cache at /nonexistent/.cache/go-build: mkdir /nonexistent: permission denied' issue
+
+ -- Oleksii Klitovchenko <oleksii.klitovchenko@envisionx.co>  Wed, 11 Nov 2020 12:02:38 +0200
+
 reopener (2.1.0) unstable; urgency=low
 
   * rebuild with new versions of libs.
