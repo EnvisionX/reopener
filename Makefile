@@ -1,5 +1,8 @@
 .PHONY: all test clean
 
+export GOPATH=/usr/share/gocode
+export HOME = $(shell pwd)
+
 all:
 	go build -o reopener
 
