@@ -1,6 +1,7 @@
 *~
 *.pyc
 *.pyo
+*.sw[op]
 test_tmp
 reopener
 *_flymake
