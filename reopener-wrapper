@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+## Helper script for starting EnvisionX Service as a system daemon.
+## Normally should be used from systemd unit file.
+##
+## Redirects all output to the rotated log file.
+
+if [ -z "$1" -o -z "$2" -o "$1" = "-h" -o "$1" = "--help" ]; then
+    echo "Usage: $0 TARGET_EXECUTABLE_PATH LOG_FILE_PATH" 1>&2
+    exit 1
+fi
+
+"$1" 2>&1 | /usr/bin/reopener -s "$2"
