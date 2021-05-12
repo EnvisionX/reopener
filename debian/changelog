@@ -1,3 +1,10 @@
+reopener (2.3.0) unstable; urgency=low
+
+  * Gitignore vim temporary files
+  * Add commonly used wrapper script to /usr/sbin
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Wed, 12 May 2021 07:58:47 +0300
+
 reopener (2.2.0) unstable; urgency=low
 
   * Fix 'failed to initialize build cache at /nonexistent/.cache/go-build: mkdir /nonexistent: permission denied' issue
