@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash -e
 
 ## Helper script for starting EnvisionX Service as a system daemon.
 ## Normally should be used from systemd unit file.
@@ -10,4 +10,4 @@ if [ -z "$1" -o -z "$2" -o "$1" = "-h" -o "$1" = "--help" ]; then
     exit 1
 fi
 
-"$1" 2>&1 | /usr/bin/reopener -s "$2"
+exec "$1" &> >(exec /usr/bin/reopener -s "$2")
