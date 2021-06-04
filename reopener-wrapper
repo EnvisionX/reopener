@@ -5,9 +5,26 @@
 ##
 ## Redirects all output to the rotated log file.
 
-if [ -z "$1" -o -z "$2" -o "$1" = "-h" -o "$1" = "--help" ]; then
+if [ -z "$1" -o "$1" = "-h" -o "$1" = "--help" ]; then
     echo "Usage: $0 TARGET_EXECUTABLE_PATH LOG_FILE_PATH" 1>&2
+    echo "Usage: $0 BASENAME DIRNAME
+        equals to /usr/sbin/\$BASENAME /var/log/\$LOGDIR/messages.log" 1>&2
+    echo "Usage: $0 NAME
+        equals to /usr/sbin/\$NAME /var/log/\$NAME/messages.log" 1>&2
     exit 1
 fi
 
-exec "$1" &> >(exec /usr/bin/reopener -s "$2")
+EXEC_PATH="$1"
+LOG_PATH="$2"
+if [ "$EXEC_PATH" = "`basename \"$EXEC_PATH\"`" ]; then
+    if [ -z "$LOG_PATH" ]; then
+        LOG_PATH="$EXEC_PATH"
+    fi
+    EXEC_PATH="/usr/sbin/$EXEC_PATH"
+fi
+
+if [ "$LOG_PATH" = "`basename \"$LOG_PATH\"`" ]; then
+    LOG_PATH="/var/log/$LOG_PATH/messages.log"
+fi
+
+exec "$EXEC_PATH" &> >(exec /usr/bin/reopener -s "$LOG_PATH")
