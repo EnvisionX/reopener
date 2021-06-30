@@ -6,9 +6,9 @@
 ## Redirects all output to the rotated log file.
 
 if [ -z "$1" -o "$1" = "-h" -o "$1" = "--help" ]; then
-    echo "Usage: $0 TARGET_EXECUTABLE_PATH LOG_FILE_PATH" 1>&2
-    echo "Usage: $0 BASENAME DIRNAME
-        equals to /usr/sbin/\$BASENAME /var/log/\$LOGDIR/messages.log" 1>&2
+    echo "Usage: $0 TARGET_EXECUTABLE_ABS_PATH LOG_FILE_ABS_PATH" 1>&2
+    echo "Usage: $0 BASENAME LOG_DIRNAME
+        equals to /usr/sbin/\$BASENAME /var/log/\$LOG_DIRNAME/messages.log" 1>&2
     echo "Usage: $0 NAME
         equals to /usr/sbin/\$NAME /var/log/\$NAME/messages.log" 1>&2
     exit 1
