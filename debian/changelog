@@ -1,3 +1,9 @@
+reopener (2.3.3) unstable; urgency=low
+
+  * Fix usage memo for the wrapper
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Wed, 30 Jun 2021 09:29:30 +0300
+
 reopener (2.3.2) unstable; urgency=low
 
   * Extend wrapper script to make it's usage simpler
